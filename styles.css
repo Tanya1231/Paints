@@ -28,7 +28,7 @@ body {
 
 /* Блок #b_12925156 */
 #b_12925156 {
-  background-image: url(/images/banner.png);
+  background-image: url(images/banner.png);
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 60px), 50% 100%, 0 calc(100% - 60px));
   position: relative;
 }
@@ -1286,7 +1286,7 @@ p {
 }
 
 .mission_title p {
-  font-size: 56px;
+  font-size: 52px;
   font-family: Roboto, sans-serif;
   margin: 0;
 }
@@ -1302,6 +1302,13 @@ p {
 }
 
 
+/* Дополнительная адаптация для очень маленьких экранов */
+@media (max-width: 480px) {
+  .mission_title p {
+  font-size: 32px;
+}
+
+}
 
 
 
